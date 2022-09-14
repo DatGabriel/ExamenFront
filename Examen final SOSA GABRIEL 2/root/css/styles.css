@@ -1,0 +1,399 @@
+/*Estilos Generales*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.btn-get-started{ /*El boton esta en estilos generales ya que es utilizado en varias partes del sitio*/
+    background-color: #8B48BF;
+    color: #ffffff;
+    font-size: 12px;
+    border-width: 0px;
+    border-radius: 20px;
+    padding: 14px 27px;
+    box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+/*Estilos del header*/
+.header{
+    height: 22vh;
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+
+.hamburguesa{
+    display: none;
+}
+
+.anchor-header{
+    margin-right: 30px;
+    color: #242E52;
+}
+/*Estilos del main*/
+.main-container{
+    margin: 10px 100px;
+}
+.texto-estadisticas{
+    flex-direction: column;
+}
+.texto-estadisticas h2{
+    color: #232C50;
+    font-size: 58px;
+    font-weight: 700;
+    padding-bottom: 20px ;
+}
+.texto-estadisticas p{
+    font-weight: 500;
+    margin-right: 150px;
+    line-height: 26px;
+}
+.btn-g-s-main{
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 20px ;
+}
+
+/*Estilos section "whats different about Manage*/
+.section-manage{
+    flex-direction: column;
+    margin: 0px 100px;
+    padding-bottom: 190px;
+}
+.section-manage h2{
+    color: #232C50;
+    font-size: 36px;
+    padding-bottom: 20px ;
+}
+.section-manage p{
+    font-weight: 500;
+    justify-content: flex-start;
+    margin-right: 200px;
+    line-height: 26px;
+}
+
+/*Estilos manage 2da parte*/
+.section-manage-2{
+    flex-direction: column;
+    margin-top: 145px;
+}
+.caja-manage{
+    flex-direction: column;
+    margin-right: 80px;
+    line-height: 26px;
+}
+.texto-manage-2{
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+.texto-manage-2 h4{
+    color: #323851;
+}
+.p-manage-2{
+    color: #B3B2B7;
+    margin: 10px 0px 0px 82px;
+    width: 32vw;
+}
+.btn-manage-2{
+    background-color: #8B48BF;
+    color: #ffffff;
+    border-width: 0px;
+    padding: 12px 23px;
+    border-radius: 30px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.caja-manage{
+    margin-bottom: 30px;
+}
+
+/*Estilos what they've said*/
+
+.section-testimonios{
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 0px 55px;
+}
+.section-testimonios h2{
+    margin-bottom: 90px;
+    color: #242E53;
+    font-size: 2rem;
+}
+
+.padre-cards{
+    background-color: #FAFAFA;
+    padding-bottom: 25px;
+}
+.card-testimonio{
+    margin: 0px 40px;
+    flex-direction: column;
+    text-align: center;
+    color: #B9B9C1;
+}
+.card-testimonio h5{
+    color: #3F4868;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.icono-card{
+    position: relative;
+    bottom: 30px;
+}
+
+.caja-btn-cards{
+    margin: 40px 0px 140px 0px;
+}
+
+/*Estilos del Footer - primera section*/
+.footer-padre{
+    flex-direction: column;
+}
+.footer-section-1{
+    background-color: #8B48BF;
+    width: 100%;
+    height: 35vh;
+    justify-content: space-around;
+}
+.text-footer-section-1{
+    width: 35%;
+}
+.text-footer-section-1 p{
+    font-size: 40px;
+    color:#ffffff ;
+    font-weight: 700;
+}
+.btn-footer-section-1{
+    background-color: #ffffff;
+    color: #8B48BF;
+}
+
+/*Estilos del Footer - segunda section*/
+.footer-section-2{
+    background-color: #1E1E26;
+    height: 38vh;
+    width: 100%;
+    justify-content: space-around;
+}
+.logo-iconos-footer{
+    flex-direction: column;
+}
+.iconos-footer{
+    padding-top: 60px;
+}
+.iconos-footer img{
+    margin-right: 5px;
+}
+/*Estilos section links*/
+.padre-links-footer{
+    justify-content: space-around;
+    width: 30vw;
+}
+.flex-footer{
+    display: flex;
+}
+.links-footer{
+    flex-direction: column;
+    gap: 12px;
+}
+.anchor-footer{
+    color: #ffffff;
+}
+.links-footer-2{
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 30px;
+}
+
+/*Estilos del formulario del footer*/
+.input-correo{
+    background-color: #ffffff;
+    border-width: 0px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.input-correo::placeholder{
+    color: #A0A0A0;
+}
+.btn-go{
+    background-color: #8B48BF;
+    color: #ffffff;
+    font-size: 15px;
+    border-width: 0px;
+    border-radius: 20px;
+    padding: 12px 25px;
+}
+.copyright{
+    margin-top: 50px;
+    font-size: 12px;
+    color: #8C8C94;
+    justify-content: flex-end;
+}
+#copyright-mobile{
+    color: #8C8C94;
+    display: none;
+}
+
+/*HOVERS*//*Header y boton get-started*/
+.anchor-header:hover{
+    color: #808080;
+}
+
+.btn-get-started:hover{
+    background-color: rgb(139, 72, 191, 0.9);
+}
+/*Botones y links footer*/
+.btn-footer-section-1:hover{
+    background-color: rgba(187, 110, 247, 0.9);
+    color: #ffffff;
+}
+.btn-go:hover{
+    background-color:rgb(139, 72, 191, 0.9); ;
+}
+.anchor-footer:hover{
+    color: #8B48BF;
+}
+
+/*Responsive - mediaqueries*/
+
+@media (max-width: 900px) {
+    /*Queries del header*/
+    .flex-container nav, .header .btn-get-started{
+        display: none;
+    }
+    .hamburguesa{
+        display: block;
+        width: 5vw;
+        height: 3.5vh;
+    }
+    .header{
+        justify-content: space-between;
+        margin: 0px 60px 85px 60px;
+    }
+    /*Queries del main*/
+    .img-estadisticas{
+        width: 80vw;
+    }
+    main .flex-container{
+        flex-direction: column-reverse;
+    }
+    .texto-main .flex-container{ /*Tuve que crear una nueva clase (texto-main) por que el column-reverse me daba vuelta el texto tambien y declarar column*/
+        flex-direction: column;
+    }
+    .texto-estadisticas{
+        justify-content: center;
+        width: 100vw;
+    }
+    .texto-estadisticas h2{
+        text-align: center;
+        font-size: 58px;
+        margin: 50px 20px 20px 20px ;
+    }
+    .texto-estadisticas p{
+        text-align: center;
+        margin: 0px;
+        font-weight: 700;
+        width: 65vw;
+    }
+    .btn-g-s-main{
+        justify-content: center;
+    }
+    /*Queries del what's different about manage*/
+    .manage-padre{
+        flex-direction: column;
+        margin-top: 120px;
+    }
+    .section-manage{
+        width: 80vw;
+        padding: 0px;
+    }
+    .section-manage h2{
+        text-align: center;
+    }
+    .section-manage p{
+        margin: 0px;
+        text-align: center;
+        width: 80vw;
+        font-weight: 700;
+    }
+    /*Queries manage 2*/
+    .texto-manage-2{
+        background-color: rgba(139, 72, 191, 0.3);
+        border-radius: 30px;
+        padding:0px 10vw 0px 0px;
+        width: 100%;
+    }
+    .p-manage-2{
+        width: 70vw;
+    }
+    .caja-manage{
+        margin-right: 0px;
+        width: 100%;
+    }
+    /*Queries testimonios*/
+    .anisha, .richard{
+        display: none;
+    }
+    /*Queries footer section-1*/
+    .footer-section-1{
+        flex-direction: column;
+        height: 65vh;
+        width: 100vw;
+    }
+    .text-footer-section-1{
+        text-align: center;
+        width: 70vw;
+        font-size: 40px;
+    }
+    /*Queries footer-section 2*/
+    .footer-section-2{
+        flex-direction: column-reverse;
+        width: 100vw;
+        height: 90vh;
+    }
+    .padre-links-footer{
+        width: 100vw;
+        padding-top: 5vh;
+    }
+    .copyright{
+        display: none;
+    }
+    .logo-iconos-footer{
+        flex-direction: column-reverse;
+    }
+    .iconos-footer{
+        padding: 0px 0px 30px 8vw;
+        margin: auto;
+        width: auto;
+    }
+    .iconos-footer img{
+        margin-right: 9vw;
+    }
+    #copyright-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1E1E26;
+        width: 100vw;
+        height: 10vh;
+        font-size: 12px;
+    }
+    .input-correo{
+        width: 60vw;
+    }
+}
