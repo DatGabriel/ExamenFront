@@ -256,6 +256,7 @@ a{
 
 .btn-get-started:hover{
     background-color: rgb(139, 72, 191, 0.9);
+    cursor: pointer;
 }
 /*Botones y links footer*/
 .btn-footer-section-1:hover{
@@ -278,7 +279,7 @@ a{
     }
     .hamburguesa{
         display: block;
-        width: 5vw;
+        width: 3.7vw;
         height: 3.5vh;
     }
     .header{
@@ -302,13 +303,13 @@ a{
     .texto-estadisticas h2{
         text-align: center;
         font-size: 58px;
-        margin: 50px 20px 20px 20px ;
+        margin: 50px 3px 20px 3px ;
     }
     .texto-estadisticas p{
         text-align: center;
         margin: 0px;
         font-weight: 700;
-        width: 65vw;
+        width: 80vw;
     }
     .btn-g-s-main{
         justify-content: center;
@@ -324,6 +325,9 @@ a{
     }
     .section-manage h2{
         text-align: center;
+        width: 90vw;
+        padding-bottom: 0px;
+        margin: 6vh;
     }
     .section-manage p{
         margin: 0px;
@@ -334,16 +338,16 @@ a{
     /*Queries manage 2*/
     .texto-manage-2{
         background-color: rgba(139, 72, 191, 0.3);
-        border-radius: 30px;
-        padding:0px 10vw 0px 0px;
-        width: 100%;
+        border-radius: 30px 0px 0px 30px;
+        width: 80vw;
     }
     .p-manage-2{
-        width: 70vw;
+        width: 77vw;
+        margin-left: 0px;
     }
     .caja-manage{
         margin-right: 0px;
-        width: 100%;
+        width: 100vw;
     }
     /*Queries testimonios*/
     .anisha, .richard{
@@ -359,6 +363,7 @@ a{
         text-align: center;
         width: 70vw;
         font-size: 40px;
+        height: 10vh;
     }
     /*Queries footer-section 2*/
     .footer-section-2{
@@ -377,7 +382,7 @@ a{
         flex-direction: column-reverse;
     }
     .iconos-footer{
-        padding: 0px 0px 30px 8vw;
+        padding: 0px 0px 40px 8vw;
         margin: auto;
         width: auto;
     }
