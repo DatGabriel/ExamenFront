@@ -1,3 +1,7 @@
+/*Anotaciones: la pagina esta hecha en desktop 1440 x 700, con 75% de zoom 
+(no se si cambia algo pero no me deja ponerlo en 100%). Sino al 100% de zoom me deja verlo bien en 1319 x 532
+y en mobile esta a 480 x 532 con 100% de zoom*/
+
 /*Estilos Generales*/
 *{
     margin: 0px;
@@ -34,7 +38,7 @@ a{
 .header{
     height: 22vh;
     justify-content: space-around;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 
 .hamburguesa{
@@ -47,7 +51,7 @@ a{
 }
 /*Estilos del main*/
 .main-container{
-    margin: 10px 100px;
+    margin: 10px 7vw;
 }
 .texto-estadisticas{
     flex-direction: column;
@@ -60,7 +64,7 @@ a{
 }
 .texto-estadisticas p{
     font-weight: 500;
-    margin-right: 150px;
+    margin-right: 4vw;
     line-height: 26px;
 }
 .btn-g-s-main{
@@ -70,30 +74,32 @@ a{
 }
 
 /*Estilos section "whats different about Manage*/
+.manage-padre{
+    display: flex;
+    align-items: flex-start;
+    margin: 8vh 7vw;
+}
 .section-manage{
     flex-direction: column;
-    margin: 0px 100px;
-    padding-bottom: 190px;
 }
 .section-manage h2{
     color: #232C50;
     font-size: 36px;
-    padding: 0px 60px 20px 0px ;
+    margin-bottom: 2vh;
 }
 .section-manage p{
     font-weight: 500;
     line-height: 26px;
-    padding-right: 11vw;
 }
 
 /*Estilos manage 2da parte*/
 .section-manage-2{
     flex-direction: column;
-    margin-top: 145px;
+    margin-left: 13vw;
 }
 .caja-manage{
     flex-direction: column;
-    margin-right: 80px;
+    margin-right: 4vw;
     line-height: 26px;
 }
 .texto-manage-2{
@@ -249,6 +255,9 @@ a{
 }
 
 /*HOVERS*//*Header y boton get-started*/
+.btn-go:hover{
+    cursor: pointer;
+}
 .anchor-header:hover{
     color: #808080;
 }
@@ -267,6 +276,7 @@ a{
 }
 .anchor-footer:hover{
     color: #8B48BF;
+    cursor: pointer;
 }
 
 /*Responsive - mediaqueries*/
@@ -286,6 +296,9 @@ a{
         margin: 0px 60px 85px 60px;
     }
     /*Queries del main*/
+    .main-container{
+        margin:0px;
+    }
     .img-estadisticas{
         width: 80vw;
     }
@@ -316,11 +329,12 @@ a{
     /*Queries del what's different about manage*/
     .manage-padre{
         flex-direction: column;
-        margin-top: 120px;
+        margin: 60px 0px 0px 0px;
     }
     .section-manage{
-        width: 80vw;
+        width: 100vw;
         padding: 0px;
+        margin-bottom: 14vh;
     }
     .section-manage h2{
         text-align: center;
@@ -332,11 +346,14 @@ a{
     .section-manage p{
         margin: 0px;
         text-align: center;
-        width: 80vw;
+        width: 90vw;
         font-weight: 700;
         padding-right: 0px;
     }
     /*Queries manage 2*/
+    .section-manage-2{
+        margin: 0px;
+    }
     .texto-manage-2{
         background-color: rgba(139, 72, 191, 0.3);
         border-radius: 30px 0px 0px 30px;
