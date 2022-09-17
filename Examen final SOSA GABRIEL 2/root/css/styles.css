@@ -1,7 +1,8 @@
-/*Anotaciones: la pagina esta hecha en desktop 1440 x 700, con 75% de zoom 
+/*Anotaciones: la pagina esta hecha en desktop 1440 x 814, con 75% de zoom 
 (no se si cambia algo pero no me deja ponerlo en 100%). Sino al 100% de zoom me deja verlo bien en 1319 x 532
-y en mobile esta a 480 x 532 con 100% de zoom*/
-
+y en mobile esta a 480 x 570 con 100% de zoom. Y algo que me esta pasando es que cuando pongo la herramienta
+para el responsive apenas lo abro en la seccion que tiene un punto 1 2 y 3 el contenedor del titulo, el background-color
+no me llega al borde de la pagina pero cuando si cierro y abro la herramienta se pone bien :D*/
 /*Estilos Generales*/
 *{
     margin: 0px;
@@ -314,7 +315,7 @@ a{
     }
     .texto-estadisticas h2{
         text-align: center;
-        font-size: 58px;
+        font-size: 50px;
         margin: 50px 3px 20px 3px ;
     }
     .texto-estadisticas p{
